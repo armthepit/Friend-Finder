@@ -1,7 +1,12 @@
 // ===============================================================================
+// DEPENDENCIES
+// ===============================================================================
+var bodyParser = require('body-parser');
+var path = require('path');
+
+// ===============================================================================
 // LOAD DATA
-// We are linking our routes to a series of "data" sources.
-// These data sources hold arrays of information on table-data, waitinglist, etc.
+// Below is the link to friends table.
 // ===============================================================================
 
 var friendsTable = require('../data/friends.js');
@@ -19,4 +24,13 @@ module.exports = function (app) {
 	app.get('/api/friends', function (request, result) {
 		result.json(friendsTable);
 	});
+
+	app.post("/api/friends", function (request, result) {
+		newFriend = request.body;
+		console.log(newFriend);
+		friendsTable.push(newFriend);
+		console.log(friendsTable);
+	});
+
+
 };

@@ -6,8 +6,8 @@
 
 var friendsArray = [
 	{
-	  "name":"Ahmed",
-	  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+	  "name":"Leonardo DiCaprio",
+	  "photo":"http://images.forbes.com/media/2010/12/16/1216_leonardo-dicaprio-high-earning_485x340.jpg",
 	  "sex":"male",
 	  "scores":[
 	     5,
@@ -20,6 +20,57 @@ var friendsArray = [
 	     5,
 	     4,
 	     1
+	   ]
+	},
+	{
+	  "name":"Kristin Stewart",
+	  "photo":"http://images.forbes.com/media/2010/12/16/1216_kristin-stewart-high-earning_485x340.jpg",
+	  "sex":"female",
+	  "scores":[
+	     1,
+	     2,
+	     5,
+	     5,
+	     1,
+	     2,
+	     3,
+	     1,
+	     5,
+	     2
+	   ]
+	},
+	{
+	  "name":"Mia Wasikowska",
+	  "photo":"http://images.forbes.com/media/2010/12/16/1216_mia-wasikowska-high-earning_485x340.jpg",
+	  "sex":"female",
+	  "scores":[
+	     4,
+	     5,
+	     3,
+	     3,
+	     4,
+	     5,
+	     1,
+	     4,
+	     3,
+	     5
+	   ]
+	},
+	{
+	  "name":"Johnny Depp",
+	  "photo":"http://images.forbes.com/media/2010/12/16/1216_johnny-depp-high-earning_485x340.jpg",
+	  "sex":"male",
+	  "scores":[
+	     2,
+	     3,
+	     1,
+	     1,
+	     2,
+	     3,
+	     4,
+	     2,
+	     1,
+	     3
 	   ]
 	}
 ];
