@@ -45,8 +45,8 @@
         <h4>Sex</h4>
         <select data-placeholder="" id="sex" class="validate">
             <option value=" "></option>
-            <option value="male ">Male</option>
-            <option value="female ">Female</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
         </select>
         <hr>
         <h3><strong>Question 1</strong></h3>
@@ -184,9 +184,10 @@
         }
 
         if (validateSurvey() === true) {
-            var newFriendInput = {
+            var friendInput = {
                 name: $('#name').val(),
                 photo: $('#photo').val(),
+                sex: $('#sex').val(),
                 scores: [
                     $("#q1 ").val(),
                     $("#q2 ").val(),
@@ -200,11 +201,10 @@
                     $("#q10 ").val()
                 ]
             }
-            console.log(newFriendInput);
             var currentURL = window.location.origin;
-            $.post(currentURL + "/api/friends ", newFriendInput, function(data) {
+            $.post(currentURL + "/api/friends ", friendInput, function(data) {
                 $("#friendName ").text(data.name);
-                $('#friendPhoto').attr("src ", data.photo);
+                $('#friendPhoto').attr("src", data.photo);
                 // Show the modal with your new friend
                 $("#resultsModal ").modal('toggle');
             })
