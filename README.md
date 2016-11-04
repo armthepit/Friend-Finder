@@ -29,3 +29,9 @@ This screen shows error when survey not correctly filled out.
 This screen shows your new friend.
 
 ![Friend](https://github.com/armthepit/Friend-Finder/blob/master/app/public/images/result.JPG?raw=true)
+
+### API Table
+
+This screen shows the json data.
+
+![Friend](https://github.com/armthepit/Friend-Finder/blob/master/app/public/images/apitable.jpg?raw=true)
