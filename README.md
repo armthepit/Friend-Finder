@@ -35,3 +35,9 @@ This screen shows your new friend.
 This screen shows the json data.
 
 ![Friend](https://github.com/armthepit/Friend-Finder/blob/master/app/public/images/apitable.jpg?raw=true)
+
+### Stack Used
+	* Node Packages
+		* Express
+		* Body-Parser
+		* Path
